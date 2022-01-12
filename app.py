@@ -11,15 +11,15 @@ CORS(app)
 @app.route("/", methods=["GET"])
 @cross_origin()
 def home():
-    return render_template('index.html')
+    return render_template("index.html")
 
 
 @app.route("/train", methods=["POST"])
 @cross_origin()
 def trainRouteClient():
     try:
-        if request.json['filepath'] is not None:
-            path = request.json['filepath']
+        if request.json["filepath"] is not None:
+            path = request.json["filepath"]
             train_valObj = train_validation(path)  # object initialization
             train_valObj.train_validation()  # calling the train_validation function
     except ValueError:

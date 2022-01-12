@@ -1,6 +1,6 @@
-from datetime import datetime
-import os
-from application_logging import logger
+from Training_Raw_data_validation.rawValidation import Raw_Data_validation
+
 
 class train_validation():
-    pass
+    def __init__(self):
+        self.raw_data = Raw_Data_validation()
