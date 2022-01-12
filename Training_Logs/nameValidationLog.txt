@@ -1,0 +1,6 @@
+2022-01-12 /12:46:1641971780		Error occured while validating FileName cannot create 're.Match' instances
+2022-01-12 /12:51:1641972087		Error occured while validating FileName cannot create 're.Match' instances
+2022-01-12 /12:54:1641972249		Invalid File Name!! File moved to Bad Raw Folder :: UCI_Credit_Card.csv
+2022-01-12 /13:05:1641972915		Error occured while validating FileName 'str' object has no attribute 'splitAtDot'
+2022-01-12 /13:08:1641973085		Error occured while validating FileName 'str' object has no attribute 'splitAtDot'
+2022-01-12 /13:10:1641973217		valid File name!! File moced to GoodRaw Folder :: creditCardFraud_021119920_010222.csv

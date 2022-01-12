@@ -1,0 +1,18 @@
+2022-01-11 /14:03:1641889993		Error while creating Directory [Errno 2] No such file or directory: 'Training_Raw_files_validated/Good_Raw/': 
+2022-01-11 /14:04:1641890079		Error while creating Directory [Errno 2] No such file or directory: 'Training_Raw_files_validated/Good_Raw/': 
+2022-01-11 /16:44:1641899672		GoodRaw directory deleted successfully!!!
+2022-01-11 /16:44:1641899694		BadRaw directory deleted before starting validation!!!
+2022-01-12 /12:46:1641971765		BadRaw directory deleted before starting validation!!!
+2022-01-12 /12:46:1641971765		GoodRaw directory deleted successfully!!!
+2022-01-12 /12:46:1641971780		BadRaw directory deleted before starting validation!!!
+2022-01-12 /12:46:1641971780		GoodRaw directory deleted successfully!!!
+2022-01-12 /12:51:1641972087		BadRaw directory deleted before starting validation!!!
+2022-01-12 /12:51:1641972087		GoodRaw directory deleted successfully!!!
+2022-01-12 /12:54:1641972247		BadRaw directory deleted before starting validation!!!
+2022-01-12 /12:54:1641972247		GoodRaw directory deleted successfully!!!
+2022-01-12 /13:05:1641972915		BadRaw directory deleted before starting validation!!!
+2022-01-12 /13:05:1641972915		GoodRaw directory deleted successfully!!!
+2022-01-12 /13:08:1641973085		BadRaw directory deleted before starting validation!!!
+2022-01-12 /13:08:1641973085		GoodRaw directory deleted successfully!!!
+2022-01-12 /13:10:1641973217		BadRaw directory deleted before starting validation!!!
+2022-01-12 /13:10:1641973217		GoodRaw directory deleted successfully!!!

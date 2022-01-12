@@ -1,0 +1,6 @@
+2022-01-11 /16:55:1641900330		Column Length Validation started!!
+2022-01-11 /16:55:1641900330		Error Occured while moving the file :: <class 'OSError'>
+2022-01-11 /16:56:1641900390		Column Length Validation started!!
+2022-01-11 /16:56:1641900390		Column Length Validation Completed!!
+2022-01-11 /16:57:1641900474		Column Length Validation started!!
+2022-01-11 /16:57:1641900474		Column Length Validation Completed!!
