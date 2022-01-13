@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 from flask import Response
-import os
 from flask_cors import CORS, cross_origin
+
 from training_Validation_Insertion import train_validation
 
 app = Flask(__name__)
@@ -14,7 +14,7 @@ def home():
     return render_template("index.html")
 
 
-@app.route("/train", methods=["POST"])
+@app.route("/train", methods=['POST'])
 @cross_origin()
 def trainRouteClient():
     try:

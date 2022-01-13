@@ -1,6 +1,17 @@
-2022-01-11 /16:55:1641900330		Column Length Validation started!!
-2022-01-11 /16:55:1641900330		Error Occured while moving the file :: <class 'OSError'>
-2022-01-11 /16:56:1641900390		Column Length Validation started!!
-2022-01-11 /16:56:1641900390		Column Length Validation Completed!!
-2022-01-11 /16:57:1641900474		Column Length Validation started!!
-2022-01-11 /16:57:1641900474		Column Length Validation Completed!!
+2022-01-13 /15:11:1642066918		Column Length Validation started!!
+2022-01-13 /15:11:1642066918		Invalid Column Length for the file!! File moved to Bad Raw Folder :: creditCardFraud_28011960_120210.csv
+2022-01-13 /15:11:1642066918		Column Length Validation Completed!!
+2022-01-13 /15:25:1642067748		Column Length Validation started!!
+2022-01-13 /15:25:1642067748		Invalid Column Length for the file!! File moved to Bad Raw Folder :: creditCardFraud_28011960_120210.csv
+2022-01-13 /15:25:1642067748		Column Length Validation Completed!!
+2022-01-13 /15:31:1642068111		Column Length Validation started!!
+2022-01-13 /15:31:1642068111		Invalid Column Length for the file!! File moved to Bad Raw Folder :: creditCardFraud_28011960_120210.csv
+2022-01-13 /15:31:1642068111		Column Length Validation Completed!!
+2022-01-13 /15:43:1642068818		Column Length Validation started!!
+2022-01-13 /15:43:1642068818		Column Length Validation Completed!!
+2022-01-13 /15:48:1642069087		Column Length Validation started!!
+2022-01-13 /15:48:1642069088		Column Length Validation Completed!!
+2022-01-13 /15:50:1642069208		Column Length Validation started!!
+2022-01-13 /15:50:1642069208		Column Length Validation Completed!!
+2022-01-13 /15:53:1642069401		Column Length Validation started!!
+2022-01-13 /15:53:1642069401		Column Length Validation Completed!!

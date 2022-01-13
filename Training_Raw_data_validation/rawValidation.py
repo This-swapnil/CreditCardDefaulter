@@ -41,11 +41,14 @@ class Raw_Data_validation:
             with open(self.schema_path, "r") as f:
                 dic = json.load(f)
                 f.close()
-            column_names = dic["ColName"]
-            NumberofColumns = dic["NumberofColumns"]
+            pattern = dic['SampleFileName']
+            LengthOfDateStampInFile = dic['LengthOfDateStampInFile']
+            LengthOfTimeStampInFile = dic['LengthOfTimeStampInFile']
+            column_names = dic['ColName']
+            NumberofColumns = dic['NumberofColumns']
 
             file = open("Training_Logs/valuesfromSchemaValidationLog.txt", "a+")
-            message = "NumberofColumns:: %s" % NumberofColumns + "\n"
+            message = "LengthOfDateStampInFile:: %s" % LengthOfDateStampInFile + "\t" + "LengthOfTimeStampInFile:: %s" % LengthOfTimeStampInFile + "\t " + "NumberofColumns:: %s" % NumberofColumns + "\n"
             self.logger.log(file, message)
         except ValueError:
             file = open("Training_Logs/valuesfromSchemaValidationLog.txt", "a+")
@@ -69,7 +72,7 @@ class Raw_Data_validation:
             file.close()
             raise e
 
-        return column_names, NumberofColumns
+        return LengthOfDateStampInFile, LengthOfTimeStampInFile, column_names, NumberofColumns
 
     def manualRegexCreation(self):
         """
