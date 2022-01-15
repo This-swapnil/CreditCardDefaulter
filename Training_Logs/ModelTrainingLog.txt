@@ -13,3 +13,97 @@
 2022-01-13 /20:46:1642086989		Start of Training(trainiModel.trainModel.trainingModel)
 2022-01-13 /20:46:1642086989		Entered the get_data method of the Data_Getter class
 2022-01-13 /20:46:1642086989		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-15 /11:30:1642226452		Start of Training(trainiModel.trainModel.trainingModel)
+2022-01-15 /11:30:1642226452		Entered the get_data method of the Data_Getter class
+2022-01-15 /11:30:1642226452		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-15 /11:31:1642226461		Start of Training(trainiModel.trainModel.trainingModel)
+2022-01-15 /11:31:1642226461		Entered the get_data method of the Data_Getter class
+2022-01-15 /11:31:1642226461		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-15 /11:48:1642227524		Start of Training(trainiModel.trainModel.trainingModel)
+2022-01-15 /11:48:1642227524		Entered the get_data method of the Data_Getter class
+2022-01-15 /11:48:1642227525		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-15 /11:48:1642227525		Entered the separate_label_feature method of the Preprocesor class
+2022-01-15 /11:48:1642227525		Label Separation Successful. Exited the separate_label_features method of the Preprocessor claa
+2022-01-15 /11:48:1642227525		Entered the is_null_present method of the Preprocessor class
+2022-01-15 /11:48:1642227525		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-01-15 /11:48:1642227525		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:48:1642227525		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:48:1642227525		Exception occured in scale_numerical_columns method of the Preprocessor class. Exception message::  [Errno 2] No such file or directory: 'model/scaler/scaled_data_train.pkl'
+2022-01-15 /11:48:1642227525		scaling for numerical columns Failed. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:48:1642227525		Unsuccessful End Of Training(trainiModel.trainModel.trainingModel)
+2022-01-15 /11:52:1642227727		Start of Training(trainiModel.trainModel.trainingModel)
+2022-01-15 /11:52:1642227727		Entered the get_data method of the Data_Getter class
+2022-01-15 /11:52:1642227727		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-15 /11:52:1642227727		Entered the separate_label_feature method of the Preprocesor class
+2022-01-15 /11:52:1642227727		Label Separation Successful. Exited the separate_label_features method of the Preprocessor claa
+2022-01-15 /11:52:1642227727		Entered the is_null_present method of the Preprocessor class
+2022-01-15 /11:52:1642227727		Finding missing values is a successful .Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-01-15 /11:52:1642227727		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:52:1642227727		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:52:1642227727		Scaler object Created inside model/scaler/ directory 
+2022-01-15 /11:52:1642227727		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:52:1642227727		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:52:1642227727		Scaler object Created inside model/scaler/ directory 
+2022-01-15 /11:54:1642227840		Start of Training(trainiModel.trainModel.trainingModel)
+2022-01-15 /11:54:1642227840		Entered the get_data method of the Data_Getter class
+2022-01-15 /11:54:1642227840		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-15 /11:54:1642227840		Entered the separate_label_feature method of the Preprocesor class
+2022-01-15 /11:54:1642227840		Label Separation Successful. Exited the separate_label_features method of the Preprocessor claa
+2022-01-15 /11:54:1642227840		Entered the is_null_present method of the Preprocessor class
+2022-01-15 /11:54:1642227840		Finding missing values is a successful .Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-01-15 /11:54:1642227840		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:54:1642227840		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:54:1642227840		Scaler object Created inside model/scaler/ directory 
+2022-01-15 /11:54:1642227840		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:54:1642227840		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:54:1642227840		Scaler object Created inside model/scaler/ directory 
+2022-01-15 /11:55:1642227918		Start of Training(trainiModel.trainModel.trainingModel)
+2022-01-15 /11:55:1642227918		Entered the get_data method of the Data_Getter class
+2022-01-15 /11:55:1642227918		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-15 /11:55:1642227918		Entered the separate_label_feature method of the Preprocesor class
+2022-01-15 /11:55:1642227918		Label Separation Successful. Exited the separate_label_features method of the Preprocessor claa
+2022-01-15 /11:55:1642227918		Entered the is_null_present method of the Preprocessor class
+2022-01-15 /11:55:1642227918		Finding missing values is a successful .Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-01-15 /11:55:1642227918		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:55:1642227918		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:55:1642227918		Scaler object Created inside model/scaler/ directory 
+2022-01-15 /11:55:1642227918		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:55:1642227918		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:55:1642227918		Scaler object Created inside model/scaler/ directory 
+2022-01-15 /11:57:1642228032		Start of Training(trainiModel.trainModel.trainingModel)
+2022-01-15 /11:57:1642228032		Entered the get_data method of the Data_Getter class
+2022-01-15 /11:57:1642228032		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-15 /11:57:1642228032		Entered the separate_label_feature method of the Preprocesor class
+2022-01-15 /11:57:1642228032		Label Separation Successful. Exited the separate_label_features method of the Preprocessor claa
+2022-01-15 /11:57:1642228032		Entered the is_null_present method of the Preprocessor class
+2022-01-15 /11:57:1642228032		Finding missing values is a successful .Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-01-15 /11:57:1642228032		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:57:1642228032		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:57:1642228032		Scaler object Created inside models/scaler/ directory 
+2022-01-15 /11:57:1642228032		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:57:1642228032		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /11:57:1642228032		Scaler object Created inside models/scaler/ directory 
+2022-01-15 /12:50:1642231239		Start of Training(trainiModel.trainModel.trainingModel)
+2022-01-15 /12:50:1642231239		Entered the get_data method of the Data_Getter class
+2022-01-15 /12:50:1642231239		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-15 /12:50:1642231239		Entered the separate_label_feature method of the Preprocesor class
+2022-01-15 /12:50:1642231239		Label Separation Successful. Exited the separate_label_features method of the Preprocessor claa
+2022-01-15 /12:50:1642231239		Entered the is_null_present method of the Preprocessor class
+2022-01-15 /12:50:1642231239		Finding missing values is a successful .Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-01-15 /12:50:1642231239		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /12:50:1642231239		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /12:50:1642231239		Scaler object Created inside models/scaler/ directory 
+2022-01-15 /12:50:1642231239		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /12:50:1642231239		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /12:50:1642231239		Scaler object Created inside models/scaler/ directory 
+2022-01-15 /13:11:1642232482		Start of Training(trainiModel.trainModel.trainingModel)
+2022-01-15 /13:11:1642232482		Entered the get_data method of the Data_Getter class
+2022-01-15 /13:11:1642232482		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-15 /13:11:1642232482		Entered the separate_label_feature method of the Preprocesor class
+2022-01-15 /13:11:1642232482		Label Separation Successful. Exited the separate_label_features method of the Preprocessor claa
+2022-01-15 /13:11:1642232482		Entered the is_null_present method of the Preprocessor class
+2022-01-15 /13:11:1642232482		Finding missing values is a successful .Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-01-15 /13:11:1642232482		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /13:11:1642232482		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /13:11:1642232482		Entered the scale_numerical_columns method of the Preprocessor class
+2022-01-15 /13:11:1642232482		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class

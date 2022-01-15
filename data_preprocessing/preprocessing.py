@@ -1,5 +1,3 @@
-import pickle
-
 import numpy as np
 import pandas as pd
 from imblearn.over_sampling import RandomOverSampler
@@ -136,7 +134,7 @@ class Preprocessor:
                 self.dataframe_with_null.to_csv(
                     'preprocessing_data/null_values.csv')  # storing the null column information to file
             self.logger_object.log(self.file_object,
-                                   "Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class")
+                                   "Finding missing values is a successful .Data written to the null values file. Exited the is_null_present method of the Preprocessor class")
             return self.null_present, self.cols_with_missing_values
         except Exception as e:
             self.logger_object.log(self.file_object,
@@ -189,16 +187,14 @@ class Preprocessor:
         self.logger_object.log(self.file_object, "Entered the scale_numerical_columns method of the Preprocessor class")
         self.data = data
         try:
-            self.num_df = self.data.select_dtypes(include=['int64']).copy()
+            self.num_df = self.data.select_dtypes(include=['int64', 'float64']).copy()
             self.scaler = StandardScaler()
             self.scaled_data = self.scaler.fit_transform(self.num_df)
             self.scaled_num_df = pd.DataFrame(data=self.scaled_data, columns=self.num_df.columns)
 
             self.logger_object.log(self.file_object,
                                    'scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class')
-            # saving the StandardScaler Object
-            pickle.dump(self.scaled_data, open('model/scaler/scaled_data_train.pkl', 'wb'))
-            self.logger_object.log(self.file_object, "Scaler object Created inside model/scaler/ directory ")
+            return self.scaled_num_df
         except Exception as e:
             self.logger_object.log(self.file_object,
                                    'Exception occured in scale_numerical_columns method of the Preprocessor class. Exception message::  ' + str(
