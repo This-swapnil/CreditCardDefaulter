@@ -1,0 +1,15 @@
+2022-01-13 /20:43:1642086793		Start of Training
+2022-01-13 /20:43:1642086793		Entered the get_data method of the Data_Getter class
+2022-01-13 /20:43:1642086793		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-13 /20:43:1642086800		Start of Training
+2022-01-13 /20:43:1642086800		Entered the get_data method of the Data_Getter class
+2022-01-13 /20:43:1642086800		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-13 /20:43:1642086804		Start of Training
+2022-01-13 /20:43:1642086804		Entered the get_data method of the Data_Getter class
+2022-01-13 /20:43:1642086804		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-13 /20:44:1642086858		Start of Training
+2022-01-13 /20:44:1642086858		Entered the get_data method of the Data_Getter class
+2022-01-13 /20:44:1642086859		Data Load Successfully!. Exited the get_data method of Data_Getter class
+2022-01-13 /20:46:1642086989		Start of Training(trainiModel.trainModel.trainingModel)
+2022-01-13 /20:46:1642086989		Entered the get_data method of the Data_Getter class
+2022-01-13 /20:46:1642086989		Data Load Successfully!. Exited the get_data method of Data_Getter class

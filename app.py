@@ -2,6 +2,7 @@ from flask import Flask, request, render_template
 from flask import Response
 from flask_cors import CORS, cross_origin
 
+from trainingModel import trainModel
 from training_Validation_Insertion import train_validation
 
 app = Flask(__name__)
@@ -22,6 +23,9 @@ def trainRouteClient():
             path = request.json["filepath"]
             train_valObj = train_validation(path)  # object initialization
             train_valObj.train_validation()  # calling the train_validation function
+
+            trainModelObj = trainModel()  # Object initialization
+            trainModelObj.trainingModel()  # training the model for the files in the table
     except ValueError:
         return Response("Error Occurred! %s" % ValueError)
     except KeyError:
