@@ -17,7 +17,7 @@ class Model_Finder:
         self.file_object = file_object
         self.logger_object = logger_object
         self.gnb = GaussianNB()
-        self.xgb = XGBClassifier(objective = "binary:logistic", n_jobs = -1)
+        self.xgb = XGBClassifier(objective = "binary:logistic", use_label_encoder = False, n_jobs = -1)
 
     def get_best_params_for_naive_bayes(self, train_x, train_y):
         """
@@ -83,8 +83,10 @@ class Model_Finder:
                                        "random_state": [ 0, 50, 100 ]}
 
             # creating an object of the Grid Search class
-            self.grid = GridSearchCV(XGBClassifier(objective = 'binary:logistic'), self.param_grid_xgboost, verbose = 3,
-                                     cv = 2, n_jobs = -1)
+            self.grid = GridSearchCV(
+                    estimator = XGBClassifier(objective = 'binary:logistic', use_label_encoder = False), param_grid =
+                    self.param_grid_xgboost, verbose = 3,
+                    cv = 3, n_jobs = -1)
 
             # finding the best parameteres
             self.grid.fit(train_x, train_y)
@@ -133,8 +135,6 @@ class Model_Finder:
                 self.xgboost_score = accuracy_score(test_y, self.prediction_xgboost)
                 self.logger_object.log(self.file_object, 'Accuracy for XGBoost:' + str(self.xgboost_score))  # AUC
             else:
-                self.xgboost_accuracy_score = accuracy_score(test_y, self.prediction_xgboost)
-                self.logger_object.log(self.file_object, 'Accuracy for XGBoost:' + str(self.xgboost_accuracy_score))
                 self.xgboost_score = roc_auc_score(test_y, self.prediction_xgboost)  # AUC for XGBoost
                 self.logger_object.log(self.file_object, 'AUC for XGBoost:' + str(self.xgboost_score))  # Log AUC
 
@@ -147,8 +147,6 @@ class Model_Finder:
                 self.naive_bayes_score = accuracy_score(test_y, self.prediction_naive_bayes)
                 self.logger_object.log(self.file_object, 'Accuracy for NB:' + str(self.naive_bayes_score))
             else:
-                self.naive_bayes_accuracy_score = accuracy_score(test_y, self.prediction_naive_bayes)
-                self.logger_object.log(self.file_object, 'Accuracy for NB:' + str(self.naive_bayes_accuracy_score))
                 self.naive_bayes_score = roc_auc_score(test_y, self.prediction_naive_bayes)  # AUC for Random Forest
                 self.logger_object.log(self.file_object, 'AUC for NB:' + str(self.naive_bayes_score))
 

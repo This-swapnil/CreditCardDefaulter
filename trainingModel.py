@@ -75,7 +75,7 @@ class trainModel:
                 best_model_name, best_model = model_finder.get_best_model(train_x, y_train, test_x, y_test)
 
                 # write best model name into log file
-                self.log_writer.log(self.file_object, "Best model for cluster " + str(i) + "is: " + best_model_name)
+                self.log_writer.log(self.file_object, "Best model for cluster " + str(i) + " is: " + best_model_name)
 
                 # saving the best model to thee directory
                 file_op = file_methods.File_Operation(self.file_object, self.log_writer)
@@ -87,6 +87,6 @@ class trainModel:
             # logging the unsuccessful Training
             self.log_writer.log(self.file_object,
                                 "Unsuccessful End Of Training(trainiModel.trainModel.trainingModel). Message is:: " + str(
-                                    e))
+                                        e))
             self.file_object.close()
             raise Exception

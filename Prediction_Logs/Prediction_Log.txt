@@ -1,0 +1,18 @@
+2022-01-20 /16:13:1642675425		Start of Prediction
+2022-01-20 /16:13:1642675425		Entered the load_model method of the File_Operations class for loading the model
+2022-01-20 /16:13:1642675425		Exception occured in load_model method of the Model_Finder class. Exception message:  [Errno 2] No such file or directory: 'models/scaler/scaler.sav'
+2022-01-20 /16:13:1642675425		Model File scaler could not be saved. Exited the load_model method of the Model_Finder class
+2022-01-20 /16:15:1642675524		Start of Prediction
+2022-01-20 /16:15:1642675524		Entered the load_model method of the File_Operations class for loading the model
+2022-01-20 /16:15:1642675524		Exception occured in load_model method of the Model_Finder class. Exception message:  [Errno 2] No such file or directory: 'models/scaler/scaler.sav'
+2022-01-20 /16:15:1642675524		Model File scaler could not be saved. Exited the load_model method of the Model_Finder class
+2022-01-20 /16:19:1642675745		Start of Prediction
+2022-01-20 /16:19:1642675745		Entered the load_model method of the File_Operations class for loading the model
+2022-01-20 /16:19:1642675745		Exception occured in load_model method of the Model_Finder class. Exception message:  [Errno 2] No such file or directory: 'models/scaler/scaler.sav'
+2022-01-20 /16:19:1642675745		Model File scaler could not be saved. Exited the load_model method of the Model_Finder class
+2022-01-20 /16:19:1642675745		Error occured while running the prediction!! Error:: 
+2022-01-20 /16:36:1642676785		Start of Prediction
+2022-01-20 /16:36:1642676785		Entered the load_model method of the File_Operations class for loading the model
+2022-01-20 /16:36:1642676785		Exception occured in load_model method of the Model_Finder class. Exception message:  [Errno 2] No such file or directory: 'models/scaler/scaler.sav'
+2022-01-20 /16:36:1642676785		Model File scaler could not be saved. Exited the load_model method of the Model_Finder class
+2022-01-20 /16:36:1642676785		Error occured while running the prediction!! Error:: 
