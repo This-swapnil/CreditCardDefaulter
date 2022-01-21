@@ -48,7 +48,11 @@ def predict():
 
                 # predicting the output
                 result = pred.predictionFromModel()
-                return str(result)
+                if result == 1:
+                    result = "Yes"
+                else:
+                    result = "No"
+                return render_template('result.html', result = result)
             else:
                 return ""
         except Exception as e:
