@@ -69,3 +69,14 @@
 2022-01-21 /14:54:1642757072		Exited the find_correct_model_file method of the Model_Finder class.
 2022-01-21 /14:54:1642757072		Entered the load_model method of the File_Operations class for loading the model
 2022-01-21 /14:54:1642757072		Model File: NaiveBayes0 loaded. Exited the load_model method of the Model_Finder class
+2022-01-21 /23:13:1642787007		Start of Prediction
+2022-01-21 /23:13:1642787007		Entered the load_model method of the File_Operations class for loading the model
+2022-01-21 /23:13:1642787007		Model File: scaler loaded. Exited the load_model method of the Model_Finder class
+2022-01-21 /23:13:1642787007		Scaled model loaded
+2022-01-21 /23:13:1642787007		Entered the load_model method of the File_Operations class for loading the model
+2022-01-21 /23:13:1642787007		Model File: Kmeans loaded. Exited the load_model method of the Model_Finder class
+2022-01-21 /23:13:1642787007		Clustering model loaded
+2022-01-21 /23:13:1642787007		Entered the find_correct_model_file method of the File_Operation class for finding the correct model
+2022-01-21 /23:13:1642787007		Exited the find_correct_model_file method of the Model_Finder class.
+2022-01-21 /23:13:1642787007		Entered the load_model method of the File_Operations class for loading the model
+2022-01-21 /23:13:1642787007		Model File: NaiveBayes0 loaded. Exited the load_model method of the Model_Finder class
