@@ -15,7 +15,7 @@ class prediction:
         try:
             self.log_writer.log(self.file_object, "Start of Prediction")
             # data = pd.DataFrame(self.data, columns = self.columns)
-            print("1st data: \n", self.data)
+            # print("1st data: \n", self.data)
 
             # calling the scaled object for standardization
             file_loder = file_methods.File_Operation(self.file_object, self.log_writer)
@@ -24,7 +24,7 @@ class prediction:
 
             X = scaled.transform(self.data)
             # X = pd.DataFrame(scaled_data, columns = self.columns)
-            print("scaled data: \n", X)
+            # print("scaled data: \n", X)
 
             # loading the cluster model
             file_loader = file_methods.File_Operation(self.file_object, self.log_writer)
@@ -32,12 +32,12 @@ class prediction:
             self.log_writer.log(self.file_object, "Clustering model loaded")
 
             cluster = kmeans.predict(X)
-            print("cluster is: ", str(cluster))
+            # print("cluster is: ", str(cluster))
             model_name = file_loader.find_correct_model_file(cluster[ 0 ])
-            print("\nModel Name: ", model_name)
+            # print("\nModel Name: ", model_name)
             model = file_loader.load_model(model_name)
             result = model.predict(X)
-            print("\n Resutl is: ", result)
+            # print("\n Resutl is: ", result)
 
             return result
         except Exception as e:
